@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "name": "Converter",
+    "description": "This extension allows the user to convert movie to mp3 in secconds",
+    "version": "0.8",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon128.png",
+        "128": "icon128.png",
+        "96": "icon96.png",
+        "48": "icon48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://mp3fiber.com/download.php*"
+            ],
+            "js": [
+                "jquery-3.2.1.min.js",
+                "download-script.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.youtube.com/watch*"
+            ],
+            "js": [
+                "jquery-3.2.1.min.js",
+                "video-script.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
