@@ -1,5 +1,5 @@
-# youtube-to-mp3
-Download mp3 button next to Subscription button
+# PlaneItPokerRedmine
+add url tag to issue ID 
 
 ## Instalation
 
