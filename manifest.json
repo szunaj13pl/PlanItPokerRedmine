@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "PlanItPokerRedmine",
     "description": "This extension create link to Redmine issues",
-    "version": "0.8",
+    "version": "2018.05.22",
     "browser_action": {
         "default_popup": "popup.html",
         "default_icon": "icon128.png",
