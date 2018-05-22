@@ -1,4 +1,4 @@
-# PlaneItPokerRedmine
+# PlanItPokerRedmine
 add url tag to issue ID 
 
 ## Instalation
@@ -8,5 +8,5 @@ add url tag to issue ID
 chrome://extensions/
 ```
 2. Click to check [Developer mode.](https://www.youtube.com/watch?v=xJ7vPsNGsWg)
-3. Drag this [CRX file](https://github.com/szunaj13pl/PlaneItPokerRedmine/blob/master/CRX/planeItPoker-extension.crx) to extenstions
+3. Drag this [CRX file](https://github.com/szunaj13pl/PlanItPokerRedmine/blob/master/CRX/planItPoker-extension.crx) to extenstions
 4.  Done :)
