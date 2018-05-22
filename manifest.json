@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "PlaneItPokerRedmine",
+    "name": "PlanItPokerRedmine",
     "description": "This extension create link to Redmine issues",
     "version": "0.8",
     "browser_action": {
