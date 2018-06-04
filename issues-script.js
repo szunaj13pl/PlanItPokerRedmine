@@ -7,12 +7,16 @@ function addHref(element) {
         const html = self[0].innerHTML;
 
         const issueNr = html.match(issueNrRegex);
-        const number = issueNr[0].replace(/\#/, '');
 
-        const redmineUrl = `https://redmine.3s.pl/issues/${number}`;
-        const newTitle = html.replace(issueNrRegex, `<a target="_blank" href="${redmineUrl}">${issueNr}</a>`);
-
-        self[0].innerHTML = newTitle;
+        if (issueNr !== null){
+            
+            const number = issueNr[0].replace(/\#/, '');
+            
+            const redmineUrl = `https://redmine.3s.pl/issues/${number}`;
+            const newTitle = html.replace(issueNrRegex, `<a target="_blank" href="${redmineUrl}">${issueNr}</a>`);
+            
+            self[0].innerHTML = newTitle;
+        }
     }
 }
 
